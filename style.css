@@ -1,13 +1,45 @@
-</style>
-</head>
-<body>
-    <div class="container">
-        <h2>Formulário de Cadastro</h2>
-        <form action="#" method="post">
-            <div class="form-group">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
-            </div>
-            <div class="form-group">
-                <label for="idade">Idade:</label>
-                <input type="text" id="
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.campo, .cidade {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.campo h2, .cidade h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.campo p, .cidade p {
+    color: #666;
+    line-height: 1.6;
+}
